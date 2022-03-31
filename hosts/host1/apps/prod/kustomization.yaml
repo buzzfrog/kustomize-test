@@ -1,0 +1,10 @@
+resources:
+- ./../../../../apps/app1
+- ./../../../../apps/app2
+
+namePrefix: prod-host1-
+
+patches:
+  - path: patch-app1.yaml
+    target:
+      labelSelector: "app=app1"

@@ -1,0 +1,4 @@
+resources:
+- ./../../../../apps/app1
+- ./../../../../apps/app2
+namePrefix: test-host1-
